@@ -1,0 +1,91 @@
+jane@jane:~/Downloads$ cpufreq-info 
+cpufrequtils 008: cpufreq-info (C) Dominik Brodowski 2004-2009
+Report errors and bugs to cpufreq@vger.kernel.org, please.
+analyzing CPU 0:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 0
+  CPUs which need to have their frequency coordinated by software: 0
+  maximum transition latency: 4294.55 ms.
+  hardware limits: 400 MHz - 4.50 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 400 MHz and 4.50 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.15 GHz.
+analyzing CPU 1:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 1
+  CPUs which need to have their frequency coordinated by software: 1
+  maximum transition latency: 4294.55 ms.
+  hardware limits: 400 MHz - 4.50 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 400 MHz and 4.50 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.10 GHz.
+analyzing CPU 2:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 2
+  CPUs which need to have their frequency coordinated by software: 2
+  maximum transition latency: 4294.55 ms.
+  hardware limits: 400 MHz - 4.50 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 400 MHz and 4.50 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 400 MHz.
+analyzing CPU 3:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 3
+  CPUs which need to have their frequency coordinated by software: 3
+  maximum transition latency: 4294.55 ms.
+  hardware limits: 400 MHz - 4.50 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 400 MHz and 4.50 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.07 GHz.
+analyzing CPU 4:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 4
+  CPUs which need to have their frequency coordinated by software: 4
+  maximum transition latency: 4294.55 ms.
+  hardware limits: 400 MHz - 4.50 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 400 MHz and 4.50 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.11 GHz.
+analyzing CPU 5:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 5
+  CPUs which need to have their frequency coordinated by software: 5
+  maximum transition latency: 4294.55 ms.
+  hardware limits: 400 MHz - 4.50 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 400 MHz and 4.50 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.10 GHz.
+analyzing CPU 6:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 6
+  CPUs which need to have their frequency coordinated by software: 6
+  maximum transition latency: 4294.55 ms.
+  hardware limits: 400 MHz - 4.50 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 400 MHz and 4.50 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.08 GHz.
+analyzing CPU 7:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: 7
+  CPUs which need to have their frequency coordinated by software: 7
+  maximum transition latency: 4294.55 ms.
+  hardware limits: 400 MHz - 4.50 GHz
+  available cpufreq governors: performance, powersave
+  current policy: frequency should be within 400 MHz and 4.50 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency is 761 MHz.
