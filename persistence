@@ -1,0 +1,24 @@
+sudo nano /etc/systemd/system/set-cpufreq-governor.service
+
+
+[Unit]
+Description=Set CPU governor to performance
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/cpupower frequency-set -g performance
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+sudo systemctl daemon-reload
+
+
+sudo systemctl enable set-cpufreq-governor.service
+
+sudo systemctl start set-cpufreq-governor.service
+
+
+cpupower frequency-info
